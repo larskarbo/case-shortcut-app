@@ -7,20 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46E4E64E25E54FD1008F6A3F /* case_shortcutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4E64D25E54FD1008F6A3F /* case_shortcutApp.swift */; };
+		466C8E2425E597E50065DE76 /* Cartfile in Sources */ = {isa = PBXBuildFile; fileRef = 466C8E2325E597E50065DE76 /* Cartfile */; };
+		466C8E2925E598A60065DE76 /* HotKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466C8E2825E598A60065DE76 /* HotKey.framework */; };
+		466C8E2A25E598A60065DE76 /* HotKey.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 466C8E2825E598A60065DE76 /* HotKey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		466C8E2D25E59BF40065DE76 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C8E2C25E59BF40065DE76 /* View2.swift */; };
+		466C8E2F25E59D190065DE76 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C8E2E25E59D190065DE76 /* PreferencesWindowController.swift */; };
+		466C8E3125E59D5F0065DE76 /* GlobalKeybindPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C8E3025E59D5F0065DE76 /* GlobalKeybindPreferences.swift */; };
+		466C8E3325E59E720065DE76 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C8E3225E59E720065DE76 /* Storage.swift */; };
+		466C8E3525E5A1A70065DE76 /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466C8E3425E5A1A70065DE76 /* Horse.swift */; };
 		46E4E65025E54FD1008F6A3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4E64F25E54FD1008F6A3F /* ContentView.swift */; };
 		46E4E65225E54FD2008F6A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E4E65125E54FD2008F6A3F /* Assets.xcassets */; };
 		46E4E65525E54FD2008F6A3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E4E65425E54FD2008F6A3F /* Preview Assets.xcassets */; };
+		46E4E67D25E555E8008F6A3F /* case_shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4E67C25E555E8008F6A3F /* case_shortcut.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		466C8E2B25E598A60065DE76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				466C8E2A25E598A60065DE76 /* HotKey.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		466C8E2325E597E50065DE76 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		466C8E2825E598A60065DE76 /* HotKey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HotKey.framework; path = Carthage/Build/Mac/HotKey.framework; sourceTree = "<group>"; };
+		466C8E2C25E59BF40065DE76 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		466C8E2E25E59D190065DE76 /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		466C8E3025E59D5F0065DE76 /* GlobalKeybindPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalKeybindPreferences.swift; sourceTree = "<group>"; };
+		466C8E3225E59E720065DE76 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		466C8E3425E5A1A70065DE76 /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
 		46E4E64A25E54FD1008F6A3F /* case-shortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "case-shortcut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46E4E64D25E54FD1008F6A3F /* case_shortcutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = case_shortcutApp.swift; sourceTree = "<group>"; };
 		46E4E64F25E54FD1008F6A3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46E4E65125E54FD2008F6A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46E4E65425E54FD2008F6A3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46E4E65625E54FD2008F6A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46E4E65725E54FD3008F6A3F /* case_shortcut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = case_shortcut.entitlements; sourceTree = "<group>"; };
+		46E4E67C25E555E8008F6A3F /* case_shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = case_shortcut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466C8E2925E598A60065DE76 /* HotKey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		466C8E2725E598A60065DE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				466C8E2825E598A60065DE76 /* HotKey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46E4E64125E54FD1008F6A3F = {
 			isa = PBXGroup;
 			children = (
+				466C8E2325E597E50065DE76 /* Cartfile */,
 				46E4E64C25E54FD1008F6A3F /* case-shortcut */,
 				46E4E64B25E54FD1008F6A3F /* Products */,
+				466C8E2725E598A60065DE76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,8 +93,13 @@
 		46E4E64C25E54FD1008F6A3F /* case-shortcut */ = {
 			isa = PBXGroup;
 			children = (
-				46E4E64D25E54FD1008F6A3F /* case_shortcutApp.swift */,
 				46E4E64F25E54FD1008F6A3F /* ContentView.swift */,
+				466C8E3225E59E720065DE76 /* Storage.swift */,
+				466C8E3425E5A1A70065DE76 /* Horse.swift */,
+				466C8E2E25E59D190065DE76 /* PreferencesWindowController.swift */,
+				466C8E3025E59D5F0065DE76 /* GlobalKeybindPreferences.swift */,
+				466C8E2C25E59BF40065DE76 /* View2.swift */,
+				46E4E67C25E555E8008F6A3F /* case_shortcut.swift */,
 				46E4E65125E54FD2008F6A3F /* Assets.xcassets */,
 				46E4E65625E54FD2008F6A3F /* Info.plist */,
 				46E4E65725E54FD3008F6A3F /* case_shortcut.entitlements */,
@@ -81,6 +126,7 @@
 				46E4E64625E54FD1008F6A3F /* Sources */,
 				46E4E64725E54FD1008F6A3F /* Frameworks */,
 				46E4E64825E54FD1008F6A3F /* Resources */,
+				466C8E2B25E598A60065DE76 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,7 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				46E4E65025E54FD1008F6A3F /* ContentView.swift in Sources */,
-				46E4E64E25E54FD1008F6A3F /* case_shortcutApp.swift in Sources */,
+				466C8E3325E59E720065DE76 /* Storage.swift in Sources */,
+				46E4E67D25E555E8008F6A3F /* case_shortcut.swift in Sources */,
+				466C8E2F25E59D190065DE76 /* PreferencesWindowController.swift in Sources */,
+				466C8E2425E597E50065DE76 /* Cartfile in Sources */,
+				466C8E3525E5A1A70065DE76 /* Horse.swift in Sources */,
+				466C8E3125E59D5F0065DE76 /* GlobalKeybindPreferences.swift in Sources */,
+				466C8E2D25E59BF40065DE76 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +327,10 @@
 				DEVELOPMENT_TEAM = 4CZ6KL6TJG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "case-shortcut/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +355,10 @@
 				DEVELOPMENT_TEAM = 4CZ6KL6TJG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "case-shortcut/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
