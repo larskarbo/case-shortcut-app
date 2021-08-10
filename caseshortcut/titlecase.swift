@@ -7,6 +7,7 @@
 
 import Foundation
 
+fileprivate let badChars = CharacterSet.alphanumerics.inverted
 public extension String {
     subscript(range: NSRange) -> Substring {
         get {
@@ -47,4 +48,50 @@ public extension String {
         }
         return newStr
     }
+    
+    var uppercasingFirst: String {
+            return prefix(1).uppercased() + dropFirst()
+        }
+
+    var lowercasingFirst: String {
+        return prefix(1).lowercased() + dropFirst()
+    }
+    
+    var camelized: String {
+        guard !isEmpty else {
+            return ""
+        }
+
+        let parts = self.components(separatedBy: badChars).map({String($0).lowercased()})
+
+        let first = String(describing: parts.first!).lowercasingFirst
+        let rest = parts.dropFirst().map({String($0).uppercasingFirst})
+
+        return ([first] + rest).joined(separator: "")
+    }
+    
+    var hyphenized: String {
+        guard !isEmpty else {
+            return ""
+        }
+
+        let parts = self.components(separatedBy: badChars)
+
+        let words = parts.map({String($0).lowercased()})
+
+        return words.joined(separator: "-")
+    }
+    
+    var dotized: String {
+        guard !isEmpty else {
+            return ""
+        }
+
+        let parts = self.components(separatedBy: badChars)
+
+        let words = parts.map({String($0).lowercased()})
+
+        return words.joined(separator: ".")
+    }
+    
 }

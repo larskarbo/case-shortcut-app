@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46989B5D25EA4879004102B3 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46989B5C25EA4879004102B3 /* SwiftUIView.swift */; };
+		46989B6125EA5AAC004102B3 /* logo.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 46989B6025EA5AAC004102B3 /* logo.iconset */; };
+		46989B6525EAB5EF004102B3 /* logoyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 46989B6425EAB5EF004102B3 /* logoyo.png */; };
+		46989B6925EAB680004102B3 /* logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 46989B6825EAB680004102B3 /* logo.pdf */; };
+		46BD94A625E9032400D7E7DD /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 46BD94A525E9032400D7E7DD /* Cartfile */; };
 		46C5189325E8FE0200C3A02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C5189225E8FE0200C3A02E /* AppDelegate.swift */; };
 		46C5189725E8FE0300C3A02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C5189625E8FE0300C3A02E /* Assets.xcassets */; };
 		46C5189A25E8FE0300C3A02E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C5189925E8FE0300C3A02E /* Preview Assets.xcassets */; };
@@ -31,7 +36,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		46C5188F25E8FE0200C3A02E /* caseshortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caseshortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46989B5C25EA4879004102B3 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		46989B6025EA5AAC004102B3 /* logo.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = logo.iconset; sourceTree = "<group>"; };
+		46989B6425EAB5EF004102B3 /* logoyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoyo.png; sourceTree = "<group>"; };
+		46989B6825EAB680004102B3 /* logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo.pdf; sourceTree = "<group>"; };
+		46BD94A525E9032400D7E7DD /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		46C5188F25E8FE0200C3A02E /* Case Shortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Case Shortcut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C5189225E8FE0200C3A02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46C5189625E8FE0300C3A02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46C5189925E8FE0300C3A02E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -40,6 +50,10 @@
 		46C5189F25E8FE0300C3A02E /* caseshortcut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = caseshortcut.entitlements; sourceTree = "<group>"; };
 		46C518A825E9012100C3A02E /* HotKey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HotKey.framework; path = caseshortcut/Carthage/Build/Mac/HotKey.framework; sourceTree = "<group>"; };
 		46C518AC25E9014500C3A02E /* titlecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titlecase.swift; sourceTree = "<group>"; };
+		4CEF48CAD5C97F5BB2310BDC /* libPods-caseshortcut.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-caseshortcut.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C2674C729C64A1CD79B601 /* Pods-caseshortcut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caseshortcut.debug.xcconfig"; path = "Target Support Files/Pods-caseshortcut/Pods-caseshortcut.debug.xcconfig"; sourceTree = "<group>"; };
+		D13A37A23CD99BB364E5BDAE /* Pods_caseshortcut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caseshortcut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E240A749427911B5FEE7B1B1 /* Pods-caseshortcut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caseshortcut.release.xcconfig"; path = "Target Support Files/Pods-caseshortcut/Pods-caseshortcut.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +74,14 @@
 				46C5189125E8FE0200C3A02E /* caseshortcut */,
 				46C5189025E8FE0200C3A02E /* Products */,
 				46C518A725E9012100C3A02E /* Frameworks */,
+				550797F7A45C6482104D90B9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		46C5189025E8FE0200C3A02E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46C5188F25E8FE0200C3A02E /* caseshortcut.app */,
+				46C5188F25E8FE0200C3A02E /* Case Shortcut.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,10 +90,15 @@
 			isa = PBXGroup;
 			children = (
 				46C5189225E8FE0200C3A02E /* AppDelegate.swift */,
+				46989B5C25EA4879004102B3 /* SwiftUIView.swift */,
 				46C518AC25E9014500C3A02E /* titlecase.swift */,
 				46C5189625E8FE0300C3A02E /* Assets.xcassets */,
 				46C5189B25E8FE0300C3A02E /* Main.storyboard */,
 				46C5189E25E8FE0300C3A02E /* Info.plist */,
+				46BD94A525E9032400D7E7DD /* Cartfile */,
+				46989B6825EAB680004102B3 /* logo.pdf */,
+				46989B6425EAB5EF004102B3 /* logoyo.png */,
+				46989B6025EA5AAC004102B3 /* logo.iconset */,
 				46C5189F25E8FE0300C3A02E /* caseshortcut.entitlements */,
 				46C5189825E8FE0300C3A02E /* Preview Content */,
 			);
@@ -97,17 +117,29 @@
 			isa = PBXGroup;
 			children = (
 				46C518A825E9012100C3A02E /* HotKey.framework */,
+				D13A37A23CD99BB364E5BDAE /* Pods_caseshortcut.framework */,
+				4CEF48CAD5C97F5BB2310BDC /* libPods-caseshortcut.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		550797F7A45C6482104D90B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C2674C729C64A1CD79B601 /* Pods-caseshortcut.debug.xcconfig */,
+				E240A749427911B5FEE7B1B1 /* Pods-caseshortcut.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46C5188E25E8FE0200C3A02E /* caseshortcut */ = {
+		46C5188E25E8FE0200C3A02E /* Case Shortcut */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46C518A225E8FE0300C3A02E /* Build configuration list for PBXNativeTarget "caseshortcut" */;
+			buildConfigurationList = 46C518A225E8FE0300C3A02E /* Build configuration list for PBXNativeTarget "Case Shortcut" */;
 			buildPhases = (
+				E328E6ED0E30151EEEC0D50D /* [CP] Check Pods Manifest.lock */,
 				46C5188B25E8FE0200C3A02E /* Sources */,
 				46C5188C25E8FE0200C3A02E /* Frameworks */,
 				46C5188D25E8FE0200C3A02E /* Resources */,
@@ -117,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = caseshortcut;
+			name = "Case Shortcut";
 			productName = caseshortcut;
-			productReference = 46C5188F25E8FE0200C3A02E /* caseshortcut.app */;
+			productReference = 46C5188F25E8FE0200C3A02E /* Case Shortcut.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46C5188E25E8FE0200C3A02E /* caseshortcut */,
+				46C5188E25E8FE0200C3A02E /* Case Shortcut */,
 			);
 		};
 /* End PBXProject section */
@@ -161,11 +193,40 @@
 			files = (
 				46C5189D25E8FE0300C3A02E /* Main.storyboard in Resources */,
 				46C5189A25E8FE0300C3A02E /* Preview Assets.xcassets in Resources */,
+				46989B6125EA5AAC004102B3 /* logo.iconset in Resources */,
+				46BD94A625E9032400D7E7DD /* Cartfile in Resources */,
 				46C5189725E8FE0300C3A02E /* Assets.xcassets in Resources */,
+				46989B6525EAB5EF004102B3 /* logoyo.png in Resources */,
+				46989B6925EAB680004102B3 /* logo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E328E6ED0E30151EEEC0D50D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-caseshortcut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46C5188B25E8FE0200C3A02E /* Sources */ = {
@@ -174,6 +235,7 @@
 			files = (
 				46C518AD25E9014500C3A02E /* titlecase.swift in Sources */,
 				46C5189325E8FE0200C3A02E /* AppDelegate.swift in Sources */,
+				46989B5D25EA4879004102B3 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +370,15 @@
 		};
 		46C518A325E8FE0300C3A02E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C2674C729C64A1CD79B601 /* Pods-caseshortcut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = caseshortcut/caseshortcut.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"caseshortcut/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A9J5SPU8J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -328,7 +393,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = larskarbo.caseshortcut;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = no.larskarbo.caseshortcut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -336,12 +402,15 @@
 		};
 		46C518A425E8FE0300C3A02E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E240A749427911B5FEE7B1B1 /* Pods-caseshortcut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = caseshortcut/caseshortcut.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"caseshortcut/Preview Content\"";
 				DEVELOPMENT_TEAM = 3A9J5SPU8J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -356,7 +425,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = larskarbo.caseshortcut;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = no.larskarbo.caseshortcut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -374,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46C518A225E8FE0300C3A02E /* Build configuration list for PBXNativeTarget "caseshortcut" */ = {
+		46C518A225E8FE0300C3A02E /* Build configuration list for PBXNativeTarget "Case Shortcut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46C518A325E8FE0300C3A02E /* Debug */,
